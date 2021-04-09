@@ -11,6 +11,12 @@
     font-size: 16px;
     background-color: #dde1e2; 
     width: 100%;
+    /*propiedades para no recargar en andriod */
+    overscroll-behavior-y: contain;
+    /* propiedades para ios */
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
 }
 
 /* Personalizados */
